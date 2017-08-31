@@ -209,7 +209,7 @@ public class SubwayAlarm extends JFrame implements WindowListener{
     public void windowActivated(WindowEvent e) {}
     public void windowClosed(WindowEvent e) {}
     public void windowClosing(WindowEvent e) {
-		int i = JOptionPane.showConfirmDialog(this, "�듃�젅�씠 �븘�씠肄섏쑝濡� 理쒖냼�솕 �떆�궎寃좎뒿�땲源�?", "醫낅즺", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+		int i = JOptionPane.showConfirmDialog(this, "트레이아이콘으로 최소화 시키겠습니까?", "종료", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
 		if( i == 0){
 			trayIcon.Show();
 		}else if(i == 1){
